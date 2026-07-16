@@ -565,23 +565,9 @@ p { margin: 0 0 1em; }
 /* City strip */
 
 .city-strip {
-  position: relative;
   background: var(--paper-tint);
-  overflow: hidden;
-}
-
-.city-strip__art {
-  position: absolute;
-  right: -40px;
-  bottom: -20px;
-  width: min(420px, 45vw);
-  opacity: 0.9;
-  pointer-events: none;
-}
-
-.city-strip .container {
-  position: relative;
-  max-width: 720px;
+  text-align: center;
+  padding: 48px 0;
 }
 
 .city-strip h2 { font-size: clamp(1.8rem, 3vw, 2.4rem); }
