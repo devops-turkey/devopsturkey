@@ -7,6 +7,6 @@
     "fetch-events": "node scripts/fetch-events.mjs"
   },
   "devDependencies": {
-    "puppeteer": "^22.0.0"
+    "puppeteer": "^24.0.0"
   }
 }
