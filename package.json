@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "name": "devopsturkey-events",
+  "version": "1.0.0",
+  "description": "Kommunity event scraper for DevOps Turkey",
+  "scripts": {
+    "fetch-events": "node scripts/fetch-events.mjs"
+  },
+  "devDependencies": {
+    "puppeteer": "^22.0.0"
+  }
+}

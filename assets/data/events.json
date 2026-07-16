@@ -1,0 +1,246 @@
+{
+  "updated_at": "2026-07-16T10:22:47.066Z",
+  "upcoming": [],
+  "past": [
+    {
+      "title": "DevOps Türkiye Meetups",
+      "url": "https://kommunity.com/devops-turkiye/events/devops-turkiye-meetups-97d6d303",
+      "date": "Wed, Jun 03 at 5:30 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/devops-turkiye-meetups-97d6d303/86290/whatsapp-image-2026-05-21.jpeg?p=event-300",
+      "parsed_date": "2026-06-03T14:30:00.000Z"
+    },
+    {
+      "title": "DevOps Turkiye Meetups",
+      "url": "https://kommunity.com/devops-turkiye/events/devops-turkiye-meetups-05566884",
+      "date": "Tue, Apr 28 at 5:30 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/devops-turkiye-meetups-05566884/85662/untitled.png?p=event-300",
+      "parsed_date": "2026-04-28T14:30:00.000Z"
+    },
+    {
+      "title": "DevOpsDays Istanbul 2025",
+      "url": "https://kommunity.com/devops-turkiye/events/devopsdays-2025-eec77927",
+      "date": "Sat, Nov 01 at 8:30 AM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/devopsdays-2025-eec77927/80805/basliksiz-9-1.png?p=event-300",
+      "parsed_date": "2025-11-01T05:30:00.000Z"
+    },
+    {
+      "title": "DevOps Konuşmaları Harbor ile AI Modellerin Dağıtılması ve CEL ile Kyverno",
+      "url": "https://kommunity.com/devops-turkiye/events/devops-konusmalari-harbor-ile-ai-modellerin-dagitilmasi-ve-cel-ile-kyverno-56498b9f",
+      "date": "Wed, Oct 08 at 7:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/devops-konusmalari-harbor-ile-ai-modellerin-dagitilmasi-ve-cel-ile-kyverno-56498b9f/80313/whatsapp-image-2025-10-01.jpeg?p=event-300",
+      "parsed_date": "2025-10-08T16:00:00.000Z"
+    },
+    {
+      "title": "AWS Community Day 2025 RECAP and AWS Signer / Kyverno Presentation",
+      "url": "https://kommunity.com/devops-turkiye/events/aws-community-day-2025-recap-and-aws-signer-kyverno-presentation-70f1fba8",
+      "date": "Tue, Apr 29 at 8:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/aws-community-day-2025-recap-and-aws-signer-kyverno-presentation-70f1fba8/74175/devopsturkey-no-2.png?p=event-300",
+      "parsed_date": "2026-04-29T17:00:00.000Z"
+    },
+    {
+      "title": "AWS re:Invent Recap & Crossplane - KubeVela",
+      "url": "https://kommunity.com/devops-turkiye/events/aws-reinvent-recap-crossplane-kubevela-3ae65dca",
+      "date": "Wed, Dec 18 at 7:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/aws-reinvent-recap-crossplane-kubevela-3ae65dca/69508/paragraf-metniniz.png?p=event-300",
+      "parsed_date": "2025-12-18T16:00:00.000Z"
+    },
+    {
+      "title": "DevOpsDays İstanbul 2024",
+      "url": "https://kommunity.com/devops-turkiye/events/devopsdays-istanbul-2024-45c781c4",
+      "date": "Sat, Apr 20 at 8:30 AM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/devopsdays-istanbul-2024-45c781c4/56482/whatsapp-image-2023-10-17.jpeg?p=event-300",
+      "parsed_date": "2026-04-20T05:30:00.000Z"
+    },
+    {
+      "title": "DevOps Turkiye Online Meetup Series",
+      "url": "https://kommunity.com/devops-turkiye/events/devops-turkiye-online-meetup-series-064a90be",
+      "date": "Wed, Apr 17 at 8:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/devops-turkiye-online-meetup-series-064a90be/62157/9-mayis-1800-1900-kopy.jpg?p=event-300",
+      "parsed_date": "2026-04-17T17:00:00.000Z"
+    },
+    {
+      "title": "Cloud Migration and Solutions - Hands On",
+      "url": "https://kommunity.com/devops-turkiye/events/cloud-migration-and-solutions-hands-on-0f3a0166",
+      "date": "Fri, Mar 01 at 8:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/cloud-migration-and-solutions-hands-on-0f3a0166/60606/726a448c-58a0-4ba8-97fe-2.jpg?p=event-300",
+      "parsed_date": "2026-03-01T17:00:00.000Z"
+    },
+    {
+      "title": "DevOps Turkiye Online Meetup Series",
+      "url": "https://kommunity.com/devops-turkiye/events/devops-turkiye-online-meetup-series-23f99996",
+      "date": "Wed, Jan 31 at 8:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/devops-turkiye-online-meetup-series-23f99996/59760/7047944e-30d0-4b70-aefd-b.jpg?p=event-300",
+      "parsed_date": "2026-01-31T17:00:00.000Z"
+    },
+    {
+      "title": "DevOpsDays İstanbul Etkinlik Tanıtımı",
+      "url": "https://kommunity.com/devops-turkiye/events/devopsdays-istanbul-etkinlik-tanitimi-d514a473",
+      "date": "Tue, Jan 16 at 8:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/devopsdays-istanbul-etkinlik-tanitimi-d514a473/59293/4380f4d2-3518-4af6-a1d6-0.jpg?p=event-300",
+      "parsed_date": "2026-01-16T17:00:00.000Z"
+    },
+    {
+      "title": "AWS re:Invent 2023 Recap",
+      "url": "https://kommunity.com/devops-turkiye/events/aws-reinvent-2023-recap-5d6084e5",
+      "date": "Wed, Dec 06 at 8:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/aws-reinvent-2023-recap-5d6084e5/57960/aws-reinvent-2023-recap.jpeg?p=event-300",
+      "parsed_date": "2025-12-06T17:00:00.000Z"
+    },
+    {
+      "title": "GitOps in Action: Redefining Application Delivery",
+      "url": "https://kommunity.com/devops-turkiye/events/gitops-in-action-redefining-application-delivery-b23febac",
+      "date": "Thu, Nov 30 at 8:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/gitops-in-action-redefining-application-delivery-b23febac/57774/img-3379.jpg?p=event-300",
+      "parsed_date": "2025-11-30T17:00:00.000Z"
+    },
+    {
+      "title": "Generating SLSA Provenance for Your Artifacts with GoReleaser",
+      "url": "https://kommunity.com/devops-turkiye/events/generating-slsa-provenance-for-your-artifacts-with-goreleaser-ff3f774a",
+      "date": "Thu, Oct 26 at 7:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/generating-slsa-provenance-for-your-artifacts-with-goreleaser-ff3f774a/56690/600-516789436.png?p=event-300",
+      "parsed_date": "2025-10-26T16:00:00.000Z"
+    },
+    {
+      "title": "Serverless Evolution",
+      "url": "https://kommunity.com/devops-turkiye/events/serverless-evolution-e390f0d0",
+      "date": "Fri, Aug 25 at 8:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/serverless-evolution-e390f0d0/54588/yeni-sunum.jpg?p=event-300",
+      "parsed_date": "2025-08-25T17:00:00.000Z"
+    },
+    {
+      "title": "Infrastructure From Code: Next up for DevOps",
+      "url": "https://kommunity.com/devops-turkiye/events/infrastructure-from-code-next-up-for-devops-26ad5ce2",
+      "date": "Sun, Aug 13 at 8:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/infrastructure-from-code-next-up-for-devops-26ad5ce2/54487/image-14.png?p=event-300",
+      "parsed_date": "2025-08-13T17:00:00.000Z"
+    },
+    {
+      "title": "DevOps Turkiye Online Meetup Series",
+      "url": "https://kommunity.com/devops-turkiye/events/devops-turkiye-online-meetup-series-75dfe910",
+      "date": "Thu, Jul 20 at 8:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/devops-turkiye-online-meetup-series-75dfe910/53681/2d359dfa-2867-4e72-9138-a.jpg?p=event-300",
+      "parsed_date": "2025-07-20T17:00:00.000Z"
+    },
+    {
+      "title": "DevOps Turkiye Online Meetup Series",
+      "url": "https://kommunity.com/devops-turkiye/events/devops-turkiye-online-meetup-series-836e7078",
+      "date": "Tue, Jul 18 at 8:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/devops-turkiye-online-meetup-series-836e7078/53803/highres-514358693.jpeg?p=event-300",
+      "parsed_date": "2025-07-18T17:00:00.000Z"
+    },
+    {
+      "title": "DevOps Turkiye Online Meetup Series",
+      "url": "https://kommunity.com/devops-turkiye/events/devops-turkiye-online-meetup-series-059d21cc",
+      "date": "Tue, Jul 04 at 8:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/devops-turkiye-online-meetup-series-059d21cc/53351/377e0265-78ba-45d8-ac45-a.jpg?p=event-300",
+      "parsed_date": "2026-07-04T17:00:00.000Z"
+    },
+    {
+      "title": "DevOps Turkiye Online Meetup Series",
+      "url": "https://kommunity.com/devops-turkiye/events/devops-turkiye-online-meetup-series-66196e48",
+      "date": "Tue, Jun 06 at 8:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/devops-turkiye-online-meetup-series-66196e48/52778/6hazirandevopsturkey.jpeg?p=event-300",
+      "parsed_date": "2026-06-06T17:00:00.000Z"
+    },
+    {
+      "title": "DevOps Turkiye Online Meetup Series",
+      "url": "https://kommunity.com/devops-turkiye/events/devops-turkiye-online-meetup-series-b4c4ebab",
+      "date": "Thu, May 25 at 8:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/devops-turkiye-online-meetup-series-b4c4ebab/52297/img-7920-960.jpeg?p=event-300",
+      "parsed_date": "2026-05-25T17:00:00.000Z"
+    },
+    {
+      "title": "DevOps Turkiye Online Meetup Series",
+      "url": "https://kommunity.com/devops-turkiye/events/devops-turkiye-online-meetup-series-dd2d2e6f",
+      "date": "Tue, May 09 at 8:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/devops-turkiye-online-meetup-series-dd2d2e6f/52107/image-from-ios-5.jpg?p=event-300",
+      "parsed_date": "2026-05-09T17:00:00.000Z"
+    },
+    {
+      "title": "Bulut Bilişim ve DevSecOps Pratikleri",
+      "url": "https://kommunity.com/devops-turkiye/events/bulut-bilisim-ve-devsecops-pratikleri-225f742e",
+      "date": "Mon, Apr 10 at 8:30 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/bulut-bilisim-ve-devsecops-pratikleri-225f742e/51713/devops-invent-1280x720-1.png?p=event-300",
+      "parsed_date": "2026-04-10T17:30:00.000Z"
+    },
+    {
+      "title": "Sektörün İçinden DevOps Pratikleri",
+      "url": "https://kommunity.com/devops-turkiye/events/sektorun-icinden-devops-pratikleri-1fcf551b",
+      "date": "Wed, Mar 15 at 6:30 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/sektorun-icinden-devops-pratikleri-1fcf551b/51190/linkedinphotomart.png?p=event-300",
+      "parsed_date": "2026-03-15T15:30:00.000Z"
+    },
+    {
+      "title": "Re:Invent Recap by AWS Ambassadors and Community Builder",
+      "url": "https://kommunity.com/devops-turkiye/events/reinvent-recap-by-aws-ambassadors-and-community-builder-cff06cc1",
+      "date": "Thu, Dec 15 at 5:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/reinvent-recap-by-aws-ambassadors-and-community-builder-cff06cc1/49376/devops-invent-linkedin.png?p=event-300",
+      "parsed_date": "2025-12-15T14:00:00.000Z"
+    },
+    {
+      "title": "AWS re:Invent 2022 - Tekmer Ankara - 1 Aralık",
+      "url": "https://kommunity.com/devops-turkiye/events/aws-reinvent-2022-tekmer-ankara-1-aralik-332775ab",
+      "date": "Thu, Dec 01 at 6:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/aws-reinvent-2022-tekmer-ankara-1-aralik-332775ab/48610/devops-invent-linkedin-an.png?p=event-300",
+      "parsed_date": "2025-12-01T15:00:00.000Z"
+    },
+    {
+      "title": "AWS re:Invent 2022 - Zemin İstanbul - 1 Aralık",
+      "url": "https://kommunity.com/devops-turkiye/events/aws-reinvent-2022-zemin-istanbul-1-aralik-25225c1c",
+      "date": "Thu, Dec 01 at 6:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/aws-reinvent-2022-zemin-istanbul-1-aralik-25225c1c/48608/devops-invent-linkedin-ze.png?p=event-300",
+      "parsed_date": "2025-12-01T15:00:00.000Z"
+    },
+    {
+      "title": "AWS re:Invent 2022 - Withco Coworking İzmir - 1 Aralık",
+      "url": "https://kommunity.com/devops-turkiye/events/aws-reinvent-2022-withco-coworking-izmir-1-aralik-af6fb67b",
+      "date": "Thu, Dec 01 at 6:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/aws-reinvent-2022-withco-coworking-izmir-1-aralik-af6fb67b/48609/devops-invent-linkedin-iz.png?p=event-300",
+      "parsed_date": "2025-12-01T15:00:00.000Z"
+    },
+    {
+      "title": "DevOps ve Kubernetes 101",
+      "url": "https://kommunity.com/devops-turkiye/events/devops-ve-kubernetes-101-b8f5f4dd",
+      "date": "Thu, Sep 22 at 6:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/devops-ve-kubernetes-101-b8f5f4dd/45721/forkommunity.png?p=event-300",
+      "parsed_date": "2025-09-22T15:00:00.000Z"
+    },
+    {
+      "title": "Exploring Keyless Codesigning with spiffe-vault",
+      "url": "https://kommunity.com/devops-turkiye/events/exploring-keyless-codesigning-with-spiffe-vault-5750c3fa",
+      "date": "Tue, Jul 19 at 9:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/exploring-keyless-codesigning-with-spiffe-vault-5750c3fa/42924/2.png?p=event-300",
+      "parsed_date": "2025-07-19T18:00:00.000Z"
+    }
+  ]
+}
