@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T11:17:43.819Z",
+  "updated_at": "2026-07-20T08:43:14.121Z",
   "upcoming": [],
   "past": [
     {
@@ -144,7 +144,7 @@
       "date": "Tue, Jul 18 at 5:00 PM",
       "location": "",
       "image": "https://media.kommunity.com/communities/devops-turkiye/events/devops-turkiye-online-meetup-series-836e7078/53803/highres-514358693.jpeg?p=event-300",
-      "parsed_date": "2025-07-18T17:00:00.000Z"
+      "parsed_date": "2026-07-18T17:00:00.000Z"
     },
     {
       "title": "DevOps Turkiye Online Meetup Series",
@@ -240,7 +240,7 @@
       "date": "Tue, Jul 19 at 6:00 PM",
       "location": "",
       "image": "https://media.kommunity.com/communities/devops-turkiye/events/exploring-keyless-codesigning-with-spiffe-vault-5750c3fa/42924/2.png?p=event-300",
-      "parsed_date": "2025-07-19T18:00:00.000Z"
+      "parsed_date": "2026-07-19T18:00:00.000Z"
     }
   ]
 }
