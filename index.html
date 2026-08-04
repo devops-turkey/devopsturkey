@@ -1,407 +1,543 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>DevOps Turkey — DevOps Community, İstanbul</title>
-<meta name="description" content="DevOps Turkey is İstanbul's DevOps community — home of DevOpsDays Istanbul and the DevOps Türkiye meetup series on Kommunity. Talks, meetups and a network of practitioners building a better way to ship software.">
-<meta property="og:title" content="DevOps Turkey — DevOps Community, İstanbul">
-<meta property="og:description" content="Home of DevOpsDays Istanbul and the DevOps Türkiye meetup series. Join the community.">
-<meta property="og:image" content="assets/img/devops-berg.jpg">
-<meta property="og:type" content="website">
-<link rel="icon" href="assets/img/devoptr_icon-32x32.png" sizes="32x32">
-<link rel="apple-touch-icon" href="assets/img/devoptr_icon-180x180.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DevOps Turkey — DevOps Community, İstanbul</title>
+  <meta name="description"
+    content="DevOps Turkey is İstanbul's DevOps community — home of DevOpsDays Istanbul and the DevOps Türkiye meetup series on Kommunity. Talks, meetups and a network of practitioners building a better way to ship software.">
+  <meta property="og:title" content="DevOps Turkey — DevOps Community, İstanbul">
+  <meta property="og:description"
+    content="Home of DevOpsDays Istanbul and the DevOps Türkiye meetup series. Join the community.">
+  <meta property="og:image" content="assets/img/devops-berg.jpg">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/img/devoptr_icon-32x32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/img/devoptr_icon-180x180.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
+
 <body>
 
-<svg class="visually-hidden" aria-hidden="true">
-  <symbol id="icon-chart" viewBox="0 0 24 24"><path d="M4 20V10M11 20V4M18 20v-7"/></symbol>
-  <symbol id="icon-users" viewBox="0 0 24 24"><path d="M8 12a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm8 0a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7ZM2 20c.6-3 2.8-5 6-5s5.4 2 6 5M12 20c.6-3 2.8-5 6-5s5.4 2 6 5"/></symbol>
-  <symbol id="icon-fork" viewBox="0 0 24 24"><path d="M6 3v6c0 2 1.5 3 4 3M18 3v6c0 2-1.5 3-4 3v6M6 3a2 2 0 1 0 0 .01M18 3a2 2 0 1 0 0 .01M12 21a2 2 0 1 0 0-.01"/></symbol>
-  <symbol id="icon-x" viewBox="0 0 24 24"><path d="M4 4l16 16M20 4L4 20"/></symbol>
-  <symbol id="icon-youtube" viewBox="0 0 24 24"><path d="M22 12s0-3.4-.4-5a3 3 0 0 0-2.1-2.1C17.9 4.5 12 4.5 12 4.5s-5.9 0-7.5.4A3 3 0 0 0 2.4 7C2 8.6 2 12 2 12s0 3.4.4 5a3 3 0 0 0 2.1 2.1c1.6.4 7.5.4 7.5.4s5.9 0 7.5-.4a3 3 0 0 0 2.1-2.1c.4-1.6.4-5 .4-5Z"/><path d="M10 9l6 3-6 3V9Z" style="fill:currentColor;stroke:none"/></symbol>
-  <symbol id="icon-linkedin" viewBox="0 0 24 24"><path d="M4.5 8.5h3V19h-3V8.5ZM6 7a1.8 1.8 0 1 1 0-3.6A1.8 1.8 0 0 1 6 7ZM10.5 8.5h2.9v1.4h.04c.4-.75 1.4-1.55 2.9-1.55 3.1 0 3.66 2 3.66 4.65V19h-3v-5.2c0-1.24-.02-2.83-1.73-2.83-1.74 0-2 1.36-2 2.75V19h-3V8.5Z" style="fill:currentColor;stroke:none"/></symbol>
-  <symbol id="icon-kommunity" viewBox="0 0 24 24"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3Z"/><path d="M12 8v8M8.5 10l7 4M15.5 10l-7 4"/></symbol>
-  <symbol id="icon-calendar" viewBox="0 0 24 24"><path d="M4 9h16M7 3v4M17 3v4M5 6h14a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1Z"/></symbol>
-  <symbol id="icon-arrow-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol>
-  <symbol id="icon-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
-  <symbol id="icon-close" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5L5 19"/></symbol>
-  <symbol id="icon-external" viewBox="0 0 24 24"><path d="M14 5h5v5M19 5l-9 9M9 5H6a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-3"/></symbol>
-  <symbol id="icon-mail" viewBox="0 0 24 24"><path d="M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Z"/><path d="m4 6 8 7 8-7"/></symbol>
-</svg>
+  <svg class="visually-hidden" aria-hidden="true">
+    <symbol id="icon-chart" viewBox="0 0 24 24">
+      <path d="M4 20V10M11 20V4M18 20v-7" />
+    </symbol>
+    <symbol id="icon-users" viewBox="0 0 24 24">
+      <path
+        d="M8 12a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm8 0a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7ZM2 20c.6-3 2.8-5 6-5s5.4 2 6 5M12 20c.6-3 2.8-5 6-5s5.4 2 6 5" />
+    </symbol>
+    <symbol id="icon-fork" viewBox="0 0 24 24">
+      <path
+        d="M6 3v6c0 2 1.5 3 4 3M18 3v6c0 2-1.5 3-4 3v6M6 3a2 2 0 1 0 0 .01M18 3a2 2 0 1 0 0 .01M12 21a2 2 0 1 0 0-.01" />
+    </symbol>
+    <symbol id="icon-x" viewBox="0 0 24 24">
+      <path d="M4 4l16 16M20 4L4 20" />
+    </symbol>
+    <symbol id="icon-youtube" viewBox="0 0 24 24">
+      <path
+        d="M22 12s0-3.4-.4-5a3 3 0 0 0-2.1-2.1C17.9 4.5 12 4.5 12 4.5s-5.9 0-7.5.4A3 3 0 0 0 2.4 7C2 8.6 2 12 2 12s0 3.4.4 5a3 3 0 0 0 2.1 2.1c1.6.4 7.5.4 7.5.4s5.9 0 7.5-.4a3 3 0 0 0 2.1-2.1c.4-1.6.4-5 .4-5Z" />
+      <path d="M10 9l6 3-6 3V9Z" style="fill:currentColor;stroke:none" />
+    </symbol>
+    <symbol id="icon-linkedin" viewBox="0 0 24 24">
+      <path
+        d="M4.5 8.5h3V19h-3V8.5ZM6 7a1.8 1.8 0 1 1 0-3.6A1.8 1.8 0 0 1 6 7ZM10.5 8.5h2.9v1.4h.04c.4-.75 1.4-1.55 2.9-1.55 3.1 0 3.66 2 3.66 4.65V19h-3v-5.2c0-1.24-.02-2.83-1.73-2.83-1.74 0-2 1.36-2 2.75V19h-3V8.5Z"
+        style="fill:currentColor;stroke:none" />
+    </symbol>
+    <symbol id="icon-kommunity" viewBox="0 0 24 24">
+      <path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3Z" />
+      <path d="M12 8v8M8.5 10l7 4M15.5 10l-7 4" />
+    </symbol>
+    <symbol id="icon-calendar" viewBox="0 0 24 24">
+      <path d="M4 9h16M7 3v4M17 3v4M5 6h14a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1Z" />
+    </symbol>
+    <symbol id="icon-arrow-up" viewBox="0 0 24 24">
+      <path d="M12 19V5M6 11l6-6 6 6" />
+    </symbol>
+    <symbol id="icon-menu" viewBox="0 0 24 24">
+      <path d="M4 7h16M4 12h16M4 17h16" />
+    </symbol>
+    <symbol id="icon-close" viewBox="0 0 24 24">
+      <path d="M5 5l14 14M19 5L5 19" />
+    </symbol>
+    <symbol id="icon-external" viewBox="0 0 24 24">
+      <path d="M14 5h5v5M19 5l-9 9M9 5H6a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-3" />
+    </symbol>
+    <symbol id="icon-mail" viewBox="0 0 24 24">
+      <path d="M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Z" />
+      <path d="m4 6 8 7 8-7" />
+    </symbol>
+  </svg>
 
-<header class="site-header">
-  <div class="container">
-    <a class="brand" href="#top">
-      <img src="assets/img/devopstr_logo_white_transparent.png" alt="DevOps Turkey">
-    </a>
-    <nav class="main-nav" aria-label="Primary">
-      <ul>
-        <li><a href="#about">Community</a></li>
-        <li><a href="#devopsdays">DevOpsDays</a></li>
-        <li><a href="#events">Events</a></li>
-        <li><a href="#sponsors">Sponsors</a></li>
-        <li><a href="#members">Organizers</a></li>
-      </ul>
-    </nav>
-    <div class="header-actions">
-      <a class="btn btn--live btn--sm" href="https://devopsdays.istanbul" target="_blank" rel="noopener">
-        DevOpsDays Istanbul
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="#top">
+        <img src="assets/img/devopstr_logo_white_transparent.png" alt="DevOps Turkey">
       </a>
-      <a class="btn btn--gold btn--sm" href="https://kommunity.com/devops-turkiye" target="_blank" rel="noopener">
-        <svg class="icon"><use href="#icon-kommunity"></use></svg>
-        Join us
-      </a>
-      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
-        <svg class="icon"><use href="#icon-menu"></use></svg>
-      </button>
-    </div>
-  </div>
-</header>
-
-<div class="mobile-nav" aria-label="Mobile">
-  <ul>
-    <li><a href="#about">Community</a></li>
-    <li><a href="#devopsdays">DevOpsDays</a></li>
-    <li><a href="#events">Events</a></li>
-    <li><a href="#sponsors">Sponsors</a></li>
-    <li><a href="#members">Organizers</a></li>
-  </ul>
-  <a class="btn btn--live" href="https://devopsdays.istanbul" target="_blank" rel="noopener">
-    DevOpsDays Istanbul
-  </a>
-  <a class="btn btn--gold" href="https://kommunity.com/devops-turkiye" target="_blank" rel="noopener">
-    <svg class="icon"><use href="#icon-kommunity"></use></svg>
-    Join us on Kommunity
-  </a>
-</div>
-
-<main id="top">
-
-  <section class="hero" id="hero">
-    <div class="hero__bg"></div>
-    <div class="hero__overlay"></div>
-    <div class="container hero__content">
-      <span class="hero__kicker">
-        <svg class="icon"><use href="#icon-calendar"></use></svg>
-        Organizers of DevOpsDays Istanbul
-      </span>
-      <h1>Let's move <span>together.</span></h1>
-      <p>DevOps Turkey is a community of engineers, operators and leaders in İstanbul building a better way to design, ship and run software — together.</p>
-      <div class="hero__actions">
-        <a class="btn btn--gold" href="https://devopsdays.istanbul" target="_blank" rel="noopener">
-          <svg class="icon"><use href="#icon-calendar"></use></svg>
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#about">Community</a></li>
+          <li><a href="#devopsdays">DevOpsDays</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#sponsors">Sponsors</a></li>
+          <li><a href="#members">Organizers</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <a class="btn btn--live btn--sm" href="https://devopsdays.istanbul" target="_blank" rel="noopener">
           DevOpsDays Istanbul
         </a>
-        <a class="btn btn--ghost" href="https://kommunity.com/devops-turkiye" target="_blank" rel="noopener">
-          <svg class="icon"><use href="#icon-kommunity"></use></svg>
-          Meetup series on Kommunity
+        <a class="btn btn--gold btn--sm" href="https://kommunity.com/devops-turkiye" target="_blank" rel="noopener">
+          <svg class="icon">
+            <use href="#icon-kommunity"></use>
+          </svg>
+          Join us
         </a>
-      </div>
-      <div class="hero__stats">
-        <div><strong>2013</strong><span>Community since</span></div>
-        <div><strong>50+</strong><span>Talks &amp; meetups</span></div>
-        <div><strong>1</strong><span>DevOpsDays İstanbul</span></div>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <svg class="icon">
+            <use href="#icon-menu"></use>
+          </svg>
+        </button>
       </div>
     </div>
-    <a class="scroll-cue" href="#about" aria-label="Scroll to content">
-      <span>Scroll</span>
-      <svg class="icon" style="transform:rotate(180deg)"><use href="#icon-arrow-up"></use></svg>
+  </header>
+
+  <div class="mobile-nav" aria-label="Mobile">
+    <ul>
+      <li><a href="#about">Community</a></li>
+      <li><a href="#devopsdays">DevOpsDays</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#sponsors">Sponsors</a></li>
+      <li><a href="#members">Organizers</a></li>
+    </ul>
+    <a class="btn btn--live" href="https://devopsdays.istanbul" target="_blank" rel="noopener">
+      DevOpsDays Istanbul
     </a>
-  </section>
-
-  <section class="section" id="about">
-    <div class="container">
-      <div class="section-head">
-        <span class="eyebrow">Why we exist</span>
-        <h2>A community, not a conference.</h2>
-        <p>We bring people together around the practices, tools and culture of DevOps — sharing what works, what doesn't, and everything learned along the way.</p>
-      </div>
-
-      <div class="features">
-        <div class="feature-card">
-          <div class="feature-card__icon"><svg class="icon"><use href="#icon-chart"></use></svg></div>
-          <h3>Continuous improvement</h3>
-          <p>DevOps believes in Kaizen — small, steady steps toward a better way of working.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-card__icon"><svg class="icon"><use href="#icon-users"></use></svg></div>
-          <h3>Networking</h3>
-          <p>Come meet other passionate DevOps practitioners in the community.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-card__icon"><svg class="icon"><use href="#icon-fork"></use></svg></div>
-          <h3>Contribution</h3>
-          <p>Every contribution — a talk, a blog post, a question — is welcome.</p>
-        </div>
-      </div>
-
-      <div class="social-row">
-        <a href="https://twitter.com/devopstr" target="_blank" rel="noopener" aria-label="Twitter / X"><svg class="icon"><use href="#icon-x"></use></svg></a>
-        <a href="https://www.youtube.com/@DevOpsTurkey/featured" target="_blank" rel="noopener" aria-label="YouTube"><svg class="icon"><use href="#icon-youtube"></use></svg></a>
-        <a href="https://www.linkedin.com/company/devops-turkey/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="icon"><use href="#icon-linkedin"></use></svg></a>
-        <a href="https://kommunity.com/devops-turkiye" target="_blank" rel="noopener" aria-label="Kommunity"><svg class="icon"><use href="#icon-kommunity"></use></svg></a>
-      </div>
-    </div>
-  </section>
-
-
-
-  <section class="section spotlight" id="devopsdays">
-    <div class="container">
-      <div>
-        <span class="spotlight__badge">Flagship event</span>
-        <h2>DevOpsDays İstanbul</h2>
-        <p>DevOps Turkey brings DevOpsDays — the global, community-run conference series — to İstanbul. Bringing together talks, open spaces and the same people you meet at meetups, in one room.</p>
-        <a class="btn btn--gold" href="https://devopsdays.istanbul" target="_blank" rel="noopener" style="margin-top: 8px;">
-          Visit the official site
-          <svg class="icon"><use href="#icon-external"></use></svg>
-        </a>
-      </div>
-      <div class="video-frame">
-        <iframe src="https://www.youtube.com/embed/02wzLji00V4" title="DevOpsDays Istanbul" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-      </div>
-    </div>
-  </section>
-
-  <section class="section city-strip">
-    <div class="container">
-      <h2>A DevOps community based in İstanbul.</h2>
-      <p>We're trying to build good synergy among people interested in DevOps — across companies, backgrounds and experience levels.</p>
-    </div>
-  </section>
-
-  <section class="section section--tint" id="events">
-    <div class="container">
-      <div class="section-head">
-        <span class="eyebrow">Stay in the loop</span>
-        <h2>Attend our events</h2>
-        <p>We meet regularly to share experiences and the latest DevOps tricks — here's what's next, and what we've been up to lately.</p>
-      </div>
-
-      <div id="event-highlight-container">
-        <a class="event-highlight" href="https://kommunity.com/devops-turkiye/events/devopsdays-istanbul-2026-ae573533" target="_blank" rel="noopener" style="display:flex; align-items:center; justify-content:space-between; gap:24px;">
-          <div class="event-highlight__body">
-            <span class="spotlight__badge spotlight__badge--live">Upcoming &mdash; Oct 24, 2026</span>
-            <h3>DevOpsDays İstanbul 2026</h3>
-            <p>The most awaited DevOps conference of the year is back. Save the date and grab your ticket.</p>
-          </div>
-          <span class="btn btn--gold event-highlight__cta" style="flex-shrink:0;">Get tickets</span>
-        </a>
-      </div>
-
-      <div id="events-list-container" class="events-list">
-        <a class="event-row" href="https://kommunity.com/devops-turkiye/events/devops-turkiye-meetups-97d6d303" target="_blank" rel="noopener">
-          <div class="event-row__date"><span>03</span>Jun 2026</div>
-          <div class="event-row__body">
-            <h3>DevOps Türkiye Meetup</h3>
-            <p>Trump Towers, İstanbul</p>
-          </div>
-          <svg class="icon event-row__go"><use href="#icon-external"></use></svg>
-        </a>
-        <a class="event-row" href="https://kommunity.com/devops-turkiye/events/devops-turkiye-meetups-05566884" target="_blank" rel="noopener">
-          <div class="event-row__date"><span>28</span>Apr 2026</div>
-          <div class="event-row__body">
-            <h3>DevOps Türkiye Meetup</h3>
-            <p>Getir Office, İstanbul</p>
-          </div>
-          <svg class="icon event-row__go"><use href="#icon-external"></use></svg>
-        </a>
-        <a class="event-row" href="https://kommunity.com/devops-turkiye/events/devopsdays-2025-eec77927" target="_blank" rel="noopener">
-          <div class="event-row__date"><span>01</span>Nov 2025</div>
-          <div class="event-row__body">
-            <h3>DevOpsDays İstanbul 2025</h3>
-            <p>Dedeman Bostancı İstanbul Hotel &amp; Convention Center</p>
-          </div>
-          <svg class="icon event-row__go"><use href="#icon-external"></use></svg>
-        </a>
-        <a class="event-row" href="https://kommunity.com/devops-turkiye/events/devops-konusmalari-harbor-ile-ai-modellerin-dagitilmasi-ve-cel-ile-kyverno-56498b9f" target="_blank" rel="noopener">
-          <div class="event-row__date"><span>08</span>Oct 2025</div>
-          <div class="event-row__body">
-            <h3>Distributing AI Models with Harbor &amp; Dynamic Policies with Kyverno CEL</h3>
-            <p>Dijitalpark Teknokent, Ataşehir</p>
-          </div>
-          <svg class="icon event-row__go"><use href="#icon-external"></use></svg>
-        </a>
-        <a class="event-row" href="https://kommunity.com/devops-turkiye/events/aws-community-day-2025-recap-and-aws-signer-kyverno-presentation-70f1fba8" target="_blank" rel="noopener">
-          <div class="event-row__date"><span>29</span>Apr 2025</div>
-          <div class="event-row__body">
-            <h3>AWS Community Day 2025 Recap &amp; AWS Signer / Kyverno</h3>
-            <p>Online</p>
-          </div>
-          <svg class="icon event-row__go"><use href="#icon-external"></use></svg>
-        </a>
-        <a class="event-row" href="https://kommunity.com/devops-turkiye/events/devopsdays-istanbul-2024-45c781c4" target="_blank" rel="noopener">
-          <div class="event-row__date"><span>20</span>Apr 2024</div>
-          <div class="event-row__body">
-            <h3>DevOpsDays İstanbul 2024</h3>
-            <p>Dedeman Bostancı İstanbul Hotel &amp; Convention Center</p>
-          </div>
-          <svg class="icon event-row__go"><use href="#icon-external"></use></svg>
-        </a>
-      </div>
-
-      <div style="text-align:center; margin-top: 36px;">
-        <a class="btn btn--outline" href="https://kommunity.com/devops-turkiye/events/past" target="_blank" rel="noopener">
-          See all past events
-          <svg class="icon"><use href="#icon-external"></use></svg>
-        </a>
-      </div>
-
-      <div class="newsletter" style="margin-top: 72px;">
-        <div>
-          <h3>Get the newsletter</h3>
-          <p>Occasional email about upcoming meetups, DevOpsDays İstanbul, and community news.</p>
-        </div>
-        <form action="https://devopsturkey.us14.list-manage.com/subscribe/post?u=1eb03b7dabc8b45fb31c46881&amp;id=10e6e160ff" method="post" name="mc-embedded-subscribe-form" class="newsletter-form" target="_blank" novalidate>
-          <label for="mce-EMAIL">Email address</label>
-          <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="you@example.com" required>
-          <div style="position: absolute; left: -5000px;" aria-hidden="true">
-            <input type="text" name="b_1eb03b7dabc8b45fb31c46881_10e6e160ff" tabindex="-1" value="">
-          </div>
-          <button type="submit" class="btn btn--gold" name="subscribe" id="mc-embedded-subscribe">Subscribe</button>
-        </form>
-      </div>
-    </div>
-  </section>
-
-  <section class="section section--dark sponsors" id="sponsors">
-    <div class="container">
-      <div class="section-head">
-        <span class="eyebrow">With thanks to</span>
-        <h2>Our sponsors</h2>
-        <p>Special thanks to our sponsors and supporters who keep this community running.</p>
-      </div>
-      <div class="sponsor-row">
-        <img src="assets/img/kloia.png" alt="kloia">
-      </div>
-      <a class="btn btn--ghost" href="mailto:organizers@devopsturkey.org">
-        <svg class="icon"><use href="#icon-mail"></use></svg>
-        Be a sponsor
-      </a>
-    </div>
-  </section>
-
-  <section class="section section--tint" id="members">
-    <div class="container">
-      <div class="section-head">
-        <span class="eyebrow">Who's behind it</span>
-        <h2>Meet the team</h2>
-        <p>The volunteer organizers behind DevOps Turkey and DevOpsDays İstanbul.</p>
-      </div>
-
-      <div class="members-grid">
-        <div class="member-card">
-          <div class="member-card__photo"><img src="assets/img/members/batuhan_apaydin.png" loading="lazy" alt="Batuhan Apaydın"></div>
-          <h3>Batuhan Apaydın</h3>
-          <p>Platform Engineer<span>@ Trendyol</span></p>
-        </div>
-        <div class="member-card">
-          <div class="member-card__photo"><img src="assets/img/members/derya_sezen.png" loading="lazy" alt="Derya Sezen"></div>
-          <h3>Derya Sezen</h3>
-          <p>Platform Engineering Ambassador<span>AWS Ambassador</span></p>
-        </div>
-        <div class="member-card">
-          <div class="member-card__photo"><img src="assets/img/members/dogukan_turan.jpg" loading="lazy" alt="Doğukan Turan"></div>
-          <h3>Doğukan Turan</h3>
-          <p>DevOps Engineer<span>@ Innovance</span></p>
-        </div>
-        <div class="member-card">
-          <div class="member-card__photo"><img src="assets/img/members/koray_oksay.jpg" loading="lazy" alt="Koray Oksay"></div>
-          <h3>Koray Oksay</h3>
-          <p>Kubernetes Consultant<span>@ Kubermatic</span></p>
-        </div>
-        <div class="member-card">
-          <div class="member-card__photo"><img src="assets/img/members/can_gurdal.jpg" loading="lazy" alt="Can Gürdal"></div>
-          <h3>Can Gürdal</h3>
-          <p>Site Reliability Engineer<span>@ Huawei</span></p>
-        </div>
-        <div class="member-card">
-          <div class="member-card__photo"><img src="assets/img/members/nazlican_yavuz.jpg" loading="lazy" alt="Nazlıcan Yavuz"></div>
-          <h3>Nazlıcan Yavuz</h3>
-          <p>Site Reliability Engineer<span>@ Akbank</span></p>
-        </div>
-        <div class="member-card">
-          <div class="member-card__photo"><img src="assets/img/members/salih_emre.jpg" loading="lazy" alt="Salih Emre"></div>
-          <h3>Salih Emre</h3>
-          <p>Engineering Manager<span>@ GetYourGuide</span></p>
-        </div>
-        <div class="member-card">
-          <div class="member-card__photo"><img src="assets/img/members/serhat.png" loading="lazy" alt="Serhat Can"></div>
-          <h3>Serhat Can</h3>
-          <p>Co-Founder<span>@ JumpCloud</span></p>
-        </div>
-        <div class="member-card">
-          <div class="member-card__photo"><img src="assets/img/members/saha_ozpinar.png" loading="lazy" alt="Şaha Baygül Özpınar"></div>
-          <h3>Şaha Baygül Özpınar</h3>
-          <p>Academic<span>Event Coordinator</span></p>
-        </div>
-        <div class="member-card">
-          <div class="member-card__photo"><img src="assets/img/members/asli_aydogandemir.png" loading="lazy" alt="Aslı Aydoğandemir"></div>
-          <h3>Aslı Aydoğandemir</h3>
-          <p>Communications Specialist</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-</main>
-
-<button class="go-top" aria-label="Back to top">
-  <svg class="icon"><use href="#icon-arrow-up"></use></svg>
-</button>
-
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-top">
-      <div class="footer-brand">
-        <img src="assets/img/devopstr_logo_white_transparent.png" alt="DevOps Turkey">
-        <p>İstanbul's DevOps community — organizers of DevOpsDays Istanbul and the DevOps Türkiye meetup series.</p>
-      </div>
-      <div class="footer-links">
-        <div>
-          <h4>Community</h4>
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#members">Members</a></li>
-            <li><a href="#events">Events</a></li>
-            <li><a href="https://kommunity.com/devops-turkiye" target="_blank" rel="noopener">Kommunity group</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4>More</h4>
-          <ul>
-            <li><a href="https://devopsdays.istanbul" target="_blank" rel="noopener">DevOpsDays Istanbul</a></li>
-            <li><a href="#sponsors">Sponsorship</a></li>
-            <li><a href="mailto:organizers@devopsturkey.org">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span>&copy; <span id="year"></span> DevOps Turkey.</span>
-      <div class="social-row">
-        <a href="https://twitter.com/devopstr" target="_blank" rel="noopener" aria-label="Twitter / X"><svg class="icon"><use href="#icon-x"></use></svg></a>
-        <a href="https://www.youtube.com/@DevOpsTurkey/featured" target="_blank" rel="noopener" aria-label="YouTube"><svg class="icon"><use href="#icon-youtube"></use></svg></a>
-        <a href="https://www.linkedin.com/company/devops-turkey/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="icon"><use href="#icon-linkedin"></use></svg></a>
-        <a href="https://kommunity.com/devops-turkiye" target="_blank" rel="noopener" aria-label="Kommunity"><svg class="icon"><use href="#icon-kommunity"></use></svg></a>
-      </div>
-    </div>
+    <a class="btn btn--gold" href="https://kommunity.com/devops-turkiye" target="_blank" rel="noopener">
+      <svg class="icon">
+        <use href="#icon-kommunity"></use>
+      </svg>
+      Join us on Kommunity
+    </a>
   </div>
-</footer>
 
-<script async src="//www.google-analytics.com/analytics.js"></script>
-<script>
-  window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments); };
-  ga.l = +new Date();
-  ga('create', 'UA-121869278-2', 'auto');
-  ga('send', 'pageview');
-</script>
-<script src="assets/js/site.js"></script>
+  <main id="top">
+
+    <section class="hero" id="hero">
+      <div class="hero__bg"></div>
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <span class="hero__kicker">
+          <svg class="icon">
+            <use href="#icon-calendar"></use>
+          </svg>
+          Organizers of DevOpsDays Istanbul
+        </span>
+        <h1>Let's move <span>together.</span></h1>
+        <p>DevOps Turkey is a community of engineers, operators and leaders in İstanbul building a better way to design,
+          ship and run software — together.</p>
+        <div class="hero__actions">
+          <a class="btn btn--gold" href="https://devopsdays.istanbul" target="_blank" rel="noopener">
+            <svg class="icon">
+              <use href="#icon-calendar"></use>
+            </svg>
+            DevOpsDays Istanbul
+          </a>
+          <a class="btn btn--ghost" href="https://kommunity.com/devops-turkiye" target="_blank" rel="noopener">
+            <svg class="icon">
+              <use href="#icon-kommunity"></use>
+            </svg>
+            Meetup series on Kommunity
+          </a>
+        </div>
+        <div class="hero__stats">
+          <div><strong>2013</strong><span>Community since</span></div>
+          <div><strong>50+</strong><span>Talks &amp; meetups</span></div>
+          <div><strong>1</strong><span>DevOpsDays İstanbul</span></div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to content">
+        <span>Scroll</span>
+        <svg class="icon" style="transform:rotate(180deg)">
+          <use href="#icon-arrow-up"></use>
+        </svg>
+      </a>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Why we exist</span>
+          <h2>A community, not a conference.</h2>
+          <p>We bring people together around the practices, tools and culture of DevOps — sharing what works, what
+            doesn't, and everything learned along the way.</p>
+        </div>
+
+        <div class="features">
+          <div class="feature-card">
+            <div class="feature-card__icon"><svg class="icon">
+                <use href="#icon-chart"></use>
+              </svg></div>
+            <h3>Continuous improvement</h3>
+            <p>DevOps believes in Kaizen — small, steady steps toward a better way of working.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon"><svg class="icon">
+                <use href="#icon-users"></use>
+              </svg></div>
+            <h3>Networking</h3>
+            <p>Come meet other passionate DevOps practitioners in the community.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon"><svg class="icon">
+                <use href="#icon-fork"></use>
+              </svg></div>
+            <h3>Contribution</h3>
+            <p>Every contribution — a talk, a blog post, a question — is welcome.</p>
+          </div>
+        </div>
+
+        <div class="social-row">
+          <a href="https://twitter.com/devopstr" target="_blank" rel="noopener" aria-label="Twitter / X"><svg
+              class="icon">
+              <use href="#icon-x"></use>
+            </svg></a>
+          <a href="https://www.youtube.com/@DevOpsTurkey/featured" target="_blank" rel="noopener"
+            aria-label="YouTube"><svg class="icon">
+              <use href="#icon-youtube"></use>
+            </svg></a>
+          <a href="https://www.linkedin.com/company/devops-turkey/" target="_blank" rel="noopener"
+            aria-label="LinkedIn"><svg class="icon">
+              <use href="#icon-linkedin"></use>
+            </svg></a>
+          <a href="https://kommunity.com/devops-turkiye" target="_blank" rel="noopener" aria-label="Kommunity"><svg
+              class="icon">
+              <use href="#icon-kommunity"></use>
+            </svg></a>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="section spotlight" id="devopsdays">
+      <div class="container">
+        <div>
+          <span class="spotlight__badge">Flagship event</span>
+          <h2>DevOpsDays İstanbul</h2>
+          <p>DevOps Turkey brings DevOpsDays — the global, community-run conference series — to İstanbul. Bringing
+            together talks, open spaces and the same people you meet at meetups, in one room.</p>
+          <a class="btn btn--gold" href="https://devopsdays.istanbul" target="_blank" rel="noopener"
+            style="margin-top: 8px;">
+            Visit the official site
+            <svg class="icon">
+              <use href="#icon-external"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="video-frame">
+          <iframe src="https://www.youtube.com/embed/02wzLji00V4" title="DevOpsDays Istanbul"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+            loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="section city-strip">
+      <div class="container">
+        <h2>A DevOps community based in İstanbul.</h2>
+        <p>We're trying to build good synergy among people interested in DevOps — across companies, backgrounds and
+          experience levels.</p>
+      </div>
+    </section>
+
+    <section class="section section--tint" id="events">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Stay in the loop</span>
+          <h2>Attend our events</h2>
+          <p>We meet regularly to share experiences and the latest DevOps tricks — here's what's next, and what we've
+            been up to lately.</p>
+        </div>
+
+        <div id="event-highlight-container">
+          <a class="event-highlight"
+            href="https://kommunity.com/devops-turkiye/events/devopsdays-istanbul-2026-ae573533" target="_blank"
+            rel="noopener" style="display:flex; align-items:center; justify-content:space-between; gap:24px;">
+            <div class="event-highlight__body">
+              <span class="spotlight__badge spotlight__badge--live">Upcoming &mdash; Oct 24, 2026</span>
+              <h3>DevOpsDays İstanbul 2026</h3>
+              <p>The most awaited DevOps conference of the year is back. Save the date and grab your ticket.</p>
+            </div>
+            <span class="btn btn--gold event-highlight__cta" style="flex-shrink:0;">Get tickets</span>
+          </a>
+        </div>
+
+        <div id="events-list-container" class="events-list">
+          <a class="event-row" href="https://kommunity.com/devops-turkiye/events/devops-turkiye-meetups-97d6d303"
+            target="_blank" rel="noopener">
+            <div class="event-row__date"><span>03</span>Jun 2026</div>
+            <div class="event-row__body">
+              <h3>DevOps Türkiye Meetup</h3>
+              <p>Trump Towers, İstanbul</p>
+            </div>
+            <svg class="icon event-row__go">
+              <use href="#icon-external"></use>
+            </svg>
+          </a>
+          <a class="event-row" href="https://kommunity.com/devops-turkiye/events/devops-turkiye-meetups-05566884"
+            target="_blank" rel="noopener">
+            <div class="event-row__date"><span>28</span>Apr 2026</div>
+            <div class="event-row__body">
+              <h3>DevOps Türkiye Meetup</h3>
+              <p>Getir Office, İstanbul</p>
+            </div>
+            <svg class="icon event-row__go">
+              <use href="#icon-external"></use>
+            </svg>
+          </a>
+          <a class="event-row" href="https://kommunity.com/devops-turkiye/events/devopsdays-2025-eec77927"
+            target="_blank" rel="noopener">
+            <div class="event-row__date"><span>01</span>Nov 2025</div>
+            <div class="event-row__body">
+              <h3>DevOpsDays İstanbul 2025</h3>
+              <p>Dedeman Bostancı İstanbul Hotel &amp; Convention Center</p>
+            </div>
+            <svg class="icon event-row__go">
+              <use href="#icon-external"></use>
+            </svg>
+          </a>
+          <a class="event-row"
+            href="https://kommunity.com/devops-turkiye/events/devops-konusmalari-harbor-ile-ai-modellerin-dagitilmasi-ve-cel-ile-kyverno-56498b9f"
+            target="_blank" rel="noopener">
+            <div class="event-row__date"><span>08</span>Oct 2025</div>
+            <div class="event-row__body">
+              <h3>Distributing AI Models with Harbor &amp; Dynamic Policies with Kyverno CEL</h3>
+              <p>Dijitalpark Teknokent, Ataşehir</p>
+            </div>
+            <svg class="icon event-row__go">
+              <use href="#icon-external"></use>
+            </svg>
+          </a>
+          <a class="event-row"
+            href="https://kommunity.com/devops-turkiye/events/aws-community-day-2025-recap-and-aws-signer-kyverno-presentation-70f1fba8"
+            target="_blank" rel="noopener">
+            <div class="event-row__date"><span>29</span>Apr 2025</div>
+            <div class="event-row__body">
+              <h3>AWS Community Day 2025 Recap &amp; AWS Signer / Kyverno</h3>
+              <p>Online</p>
+            </div>
+            <svg class="icon event-row__go">
+              <use href="#icon-external"></use>
+            </svg>
+          </a>
+          <a class="event-row" href="https://kommunity.com/devops-turkiye/events/devopsdays-istanbul-2024-45c781c4"
+            target="_blank" rel="noopener">
+            <div class="event-row__date"><span>20</span>Apr 2024</div>
+            <div class="event-row__body">
+              <h3>DevOpsDays İstanbul 2024</h3>
+              <p>Dedeman Bostancı İstanbul Hotel &amp; Convention Center</p>
+            </div>
+            <svg class="icon event-row__go">
+              <use href="#icon-external"></use>
+            </svg>
+          </a>
+        </div>
+
+        <div style="text-align:center; margin-top: 36px;">
+          <a class="btn btn--outline" href="https://kommunity.com/devops-turkiye/events/past" target="_blank"
+            rel="noopener">
+            See all past events
+            <svg class="icon">
+              <use href="#icon-external"></use>
+            </svg>
+          </a>
+        </div>
+
+        <div class="newsletter" style="margin-top: 72px;">
+          <div>
+            <h3>Get the newsletter</h3>
+            <p>Occasional email about upcoming meetups, DevOpsDays İstanbul, and community news.</p>
+          </div>
+          <form
+            action="https://devopsturkey.us14.list-manage.com/subscribe/post?u=1eb03b7dabc8b45fb31c46881&amp;id=10e6e160ff"
+            method="post" name="mc-embedded-subscribe-form" class="newsletter-form" target="_blank" novalidate>
+            <label for="mce-EMAIL">Email address</label>
+            <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="you@example.com" required>
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_1eb03b7dabc8b45fb31c46881_10e6e160ff" tabindex="-1" value="">
+            </div>
+            <button type="submit" class="btn btn--gold" name="subscribe" id="mc-embedded-subscribe">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--dark sponsors" id="sponsors">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">With thanks to</span>
+          <h2>Our sponsors</h2>
+          <p>Special thanks to our sponsors and supporters who keep this community running.</p>
+        </div>
+        <div class="sponsor-row">
+          <img src="assets/img/kloia.png" alt="kloia">
+        </div>
+        <a class="btn btn--ghost" href="mailto:organizers@devopsturkey.org">
+          <svg class="icon">
+            <use href="#icon-mail"></use>
+          </svg>
+          Be a sponsor
+        </a>
+      </div>
+    </section>
+
+    <section class="section section--tint" id="members">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Who's behind it</span>
+          <h2>Meet the team</h2>
+          <p>The volunteer organizers behind DevOps Turkey and DevOpsDays İstanbul.</p>
+        </div>
+
+        <div class="members-grid">
+          <div class="member-card">
+            <div class="member-card__photo"><img src="assets/img/members/batuhan_apaydin.png" loading="lazy"
+                alt="Batuhan Apaydın"></div>
+            <h3>Batuhan Apaydın</h3>
+            <p>Software Engineer<span>@Chainguard</span></p>
+          </div>
+          <div class="member-card">
+            <div class="member-card__photo"><img src="assets/img/members/derya_sezen.png" loading="lazy"
+                alt="Derya Sezen"></div>
+            <h3>Derya Sezen</h3>
+            <p>Platform Engineering Ambassador<span>AWS Ambassador</span></p>
+          </div>
+          <div class="member-card">
+            <div class="member-card__photo"><img src="assets/img/members/dogukan_turan.jpg" loading="lazy"
+                alt="Doğukan Turan"></div>
+            <h3>Doğukan Turan</h3>
+            <p>DevOps Engineer<span>@ Innovance</span></p>
+          </div>
+          <div class="member-card">
+            <div class="member-card__photo"><img src="assets/img/members/koray_oksay.jpg" loading="lazy"
+                alt="Koray Oksay"></div>
+            <h3>Koray Oksay</h3>
+            <p>CNCF Ambassador | Platform Engineering Ambassador</p>
+          </div>
+          <div class="member-card">
+            <div class="member-card__photo"><img src="assets/img/members/can_gurdal.jpg" loading="lazy"
+                alt="Can Gürdal"></div>
+            <h3>Can Gürdal</h3>
+            <p>Site Reliability Engineer<span>@ Huawei</span></p>
+          </div>
+          <div class="member-card">
+            <div class="member-card__photo"><img src="assets/img/members/nazlican_yavuz.jpg" loading="lazy"
+                alt="Nazlıcan Yavuz"></div>
+            <h3>Nazlıcan Yavuz</h3>
+            <p>Site Reliability Engineer<span>@ Akbank</span></p>
+          </div>
+          <div class="member-card">
+            <div class="member-card__photo"><img src="assets/img/members/salih_emre.jpg" loading="lazy"
+                alt="Salih Emre"></div>
+            <h3>Salih Emre</h3>
+            <p>Engineering Manager<span>@ GetYourGuide</span></p>
+          </div>
+          <div class="member-card">
+            <div class="member-card__photo"><img src="assets/img/members/serhat.png" loading="lazy" alt="Serhat Can">
+            </div>
+            <h3>Serhat Can</h3>
+            <p>Co-Founder<span>@ JumpCloud</span></p>
+          </div>
+          <div class="member-card">
+            <div class="member-card__photo"><img src="assets/img/members/saha_ozpinar.png" loading="lazy"
+                alt="Şaha Baygül Özpınar"></div>
+            <h3>Şaha Baygül Özpınar</h3>
+            <p>Academic<span>Event Coordinator</span></p>
+          </div>
+          <div class="member-card">
+            <div class="member-card__photo"><img src="assets/img/members/asli_aydogandemir.png" loading="lazy"
+                alt="Aslı Aydoğandemir"></div>
+            <h3>Aslı Aydoğandemir</h3>
+            <p>Communications Specialist</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+  <button class="go-top" aria-label="Back to top">
+    <svg class="icon">
+      <use href="#icon-arrow-up"></use>
+    </svg>
+  </button>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/img/devopstr_logo_white_transparent.png" alt="DevOps Turkey">
+          <p>İstanbul's DevOps community — organizers of DevOpsDays Istanbul and the DevOps Türkiye meetup series.</p>
+        </div>
+        <div class="footer-links">
+          <div>
+            <h4>Community</h4>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#members">Members</a></li>
+              <li><a href="#events">Events</a></li>
+              <li><a href="https://kommunity.com/devops-turkiye" target="_blank" rel="noopener">Kommunity group</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>More</h4>
+            <ul>
+              <li><a href="https://devopsdays.istanbul" target="_blank" rel="noopener">DevOpsDays Istanbul</a></li>
+              <li><a href="#sponsors">Sponsorship</a></li>
+              <li><a href="mailto:organizers@devopsturkey.org">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span id="year"></span> DevOps Turkey.</span>
+        <div class="social-row">
+          <a href="https://twitter.com/devopstr" target="_blank" rel="noopener" aria-label="Twitter / X"><svg
+              class="icon">
+              <use href="#icon-x"></use>
+            </svg></a>
+          <a href="https://www.youtube.com/@DevOpsTurkey/featured" target="_blank" rel="noopener"
+            aria-label="YouTube"><svg class="icon">
+              <use href="#icon-youtube"></use>
+            </svg></a>
+          <a href="https://www.linkedin.com/company/devops-turkey/" target="_blank" rel="noopener"
+            aria-label="LinkedIn"><svg class="icon">
+              <use href="#icon-linkedin"></use>
+            </svg></a>
+          <a href="https://kommunity.com/devops-turkiye" target="_blank" rel="noopener" aria-label="Kommunity"><svg
+              class="icon">
+              <use href="#icon-kommunity"></use>
+            </svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script async src="//www.google-analytics.com/analytics.js"></script>
+  <script>
+    window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments); };
+    ga.l = +new Date();
+    ga('create', 'UA-121869278-2', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script src="assets/js/site.js"></script>
 </body>
+
 </html>
