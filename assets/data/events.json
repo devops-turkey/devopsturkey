@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T11:29:50.611Z",
+  "updated_at": "2026-09-28T12:24:47.220Z",
   "upcoming": [],
   "past": [
     {
@@ -232,7 +232,7 @@
       "date": "Thu, Sep 22 at 3:00 PM",
       "location": "",
       "image": "https://media.kommunity.com/communities/devops-turkiye/events/devops-ve-kubernetes-101-b8f5f4dd/45721/forkommunity.png?p=event-300",
-      "parsed_date": "2025-09-22T15:00:00.000Z"
+      "parsed_date": "2026-09-22T15:00:00.000Z"
     },
     {
       "title": "Exploring Keyless Codesigning with spiffe-vault",
