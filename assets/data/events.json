@@ -1,6 +1,15 @@
 {
-  "updated_at": "2026-09-28T12:24:47.220Z",
-  "upcoming": [],
+  "updated_at": "2026-10-05T13:04:55.139Z",
+  "upcoming": [
+    {
+      "title": "DevOpsDays Istanbul 2026",
+      "url": "https://kommunity.com/devops-turkiye/events/devopsdays-istanbul-2026-ae573533",
+      "date": "Sat, Oct 24 at 6:00 AM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/devopsdays-istanbul-2026-ae573533/88527/devopsdays-istanbul-2026-themed.png?p=event-300",
+      "parsed_date": "2025-10-24T06:00:00.000Z"
+    }
+  ],
   "past": [
     {
       "title": "DevOps Türkiye Meetups",
