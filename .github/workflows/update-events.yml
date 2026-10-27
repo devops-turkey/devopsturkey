@@ -1,41 +1,30 @@
 name: Update Events from Kommunity
-
 on:
   schedule:
-    # Her Pazartesi 06:00 UTC (09:00 İstanbul)
     - cron: '0 6 * * 1'
-  workflow_dispatch:  # Elle tetikleme için
-
+  workflow_dispatch: 
 jobs:
   update-events:
     runs-on: ubuntu-latest
-
     permissions:
       contents: write  # commit + push için
-
     env:
       PUPPETEER_SKIP_DOWNLOAD: 'true'
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '24'
-
       - name: Install Chromium
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y chromium-browser
-
       - name: Install Node dependencies
         run: npm ci
-
       - name: Run event scraper
         run: npm run fetch-events
-
       - name: Check for changes
         id: diff
         run: |
@@ -44,7 +33,6 @@ jobs:
           else
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
-
       - name: Commit and push if changed
         if: steps.diff.outputs.changed == 'true'
         run: |
