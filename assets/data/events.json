@@ -1,6 +1,87 @@
 {
-  "updated_at": "2026-10-26T11:54:57.397Z",
-  "upcoming": [],
+  "updated_at": "2026-11-02T14:15:52.577Z",
+  "upcoming": [
+    {
+      "title": "DevOpsDays Istanbul 2026",
+      "url": "https://kommunity.com/devops-turkiye/events/devopsdays-istanbul-2026-ae573533",
+      "date": "Past\n        Sat, Oct 24 at 6:00 AM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/devopsdays-istanbul-2026-ae573533/88527/devopsdays-istanbul-2026-themed.png?p=event-300",
+      "parsed_date": "2026-10-24T06:00:00.000Z"
+    },
+    {
+      "title": "DevOps Türkiye Meetups",
+      "url": "https://kommunity.com/devops-turkiye/events/devops-turkiye-meetups-97d6d303",
+      "date": "Past\n        Wed, Jun 03 at 2:30 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/devops-turkiye-meetups-97d6d303/86290/whatsapp-image-2026-05-21.jpeg?p=event-300",
+      "parsed_date": "2026-06-03T14:30:00.000Z"
+    },
+    {
+      "title": "DevOps Turkiye Meetups",
+      "url": "https://kommunity.com/devops-turkiye/events/devops-turkiye-meetups-05566884",
+      "date": "Past\n        Tue, Apr 28 at 2:30 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/devops-turkiye-meetups-05566884/85662/untitled.png?p=event-300",
+      "parsed_date": "2026-04-28T14:30:00.000Z"
+    },
+    {
+      "title": "DevOpsDays Istanbul 2025",
+      "url": "https://kommunity.com/devops-turkiye/events/devopsdays-2025-eec77927",
+      "date": "Past\n        Sat, Nov 01, 2025 at 5:30 AM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/devopsdays-2025-eec77927/80805/basliksiz-9-1.png?p=event-300",
+      "parsed_date": "2026-11-01T05:30:00.000Z"
+    },
+    {
+      "title": "DevOps Konuşmaları Harbor ile AI Modellerin Dağıtılması ve CEL ile Kyverno",
+      "url": "https://kommunity.com/devops-turkiye/events/devops-konusmalari-harbor-ile-ai-modellerin-dagitilmasi-ve-cel-ile-kyverno-56498b9f",
+      "date": "Past\n        Wed, Oct 08, 2025 at 4:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/devops-konusmalari-harbor-ile-ai-modellerin-dagitilmasi-ve-cel-ile-kyverno-56498b9f/80313/whatsapp-image-2025-10-01.jpeg?p=event-300",
+      "parsed_date": "2026-10-08T16:00:00.000Z"
+    },
+    {
+      "title": "AWS Community Day 2025 RECAP and AWS Signer / Kyverno Presentation",
+      "url": "https://kommunity.com/devops-turkiye/events/aws-community-day-2025-recap-and-aws-signer-kyverno-presentation-70f1fba8",
+      "date": "Past\n        Tue, Apr 29, 2025 at 5:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/aws-community-day-2025-recap-and-aws-signer-kyverno-presentation-70f1fba8/74175/devopsturkey-no-2.png?p=event-300",
+      "parsed_date": "2026-04-29T17:00:00.000Z"
+    },
+    {
+      "title": "AWS re:Invent Recap & Crossplane - KubeVela",
+      "url": "https://kommunity.com/devops-turkiye/events/aws-reinvent-recap-crossplane-kubevela-3ae65dca",
+      "date": "Past\n        Wed, Dec 18, 2024 at 4:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/aws-reinvent-recap-crossplane-kubevela-3ae65dca/69508/paragraf-metniniz.png?p=event-300",
+      "parsed_date": "2025-12-18T16:00:00.000Z"
+    },
+    {
+      "title": "DevOpsDays İstanbul 2024",
+      "url": "https://kommunity.com/devops-turkiye/events/devopsdays-istanbul-2024-45c781c4",
+      "date": "Past\n        Sat, Apr 20, 2024 at 5:30 AM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/devopsdays-istanbul-2024-45c781c4/56482/whatsapp-image-2023-10-17.jpeg?p=event-300",
+      "parsed_date": "2026-04-20T05:30:00.000Z"
+    },
+    {
+      "title": "DevOps Turkiye Online Meetup Series",
+      "url": "https://kommunity.com/devops-turkiye/events/devops-turkiye-online-meetup-series-064a90be",
+      "date": "Past\n        Wed, Apr 17, 2024 at 5:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/devops-turkiye-online-meetup-series-064a90be/62157/9-mayis-1800-1900-kopy.jpg?p=event-300",
+      "parsed_date": "2026-04-17T17:00:00.000Z"
+    },
+    {
+      "title": "Cloud Migration and Solutions - Hands On",
+      "url": "https://kommunity.com/devops-turkiye/events/cloud-migration-and-solutions-hands-on-0f3a0166",
+      "date": "Past\n        Fri, Mar 01, 2024 at 5:00 PM",
+      "location": "",
+      "image": "https://media.kommunity.com/communities/devops-turkiye/events/cloud-migration-and-solutions-hands-on-0f3a0166/60606/726a448c-58a0-4ba8-97fe-2.jpg?p=event-300",
+      "parsed_date": "2026-03-01T17:00:00.000Z"
+    }
+  ],
   "past": [
     {
       "title": "DevOpsDays Istanbul 2026",
@@ -32,7 +113,7 @@
       "date": "Sat, Nov 01, 2025 at 5:30 AM",
       "location": "",
       "image": "https://media.kommunity.com/communities/devops-turkiye/events/devopsdays-2025-eec77927/80805/basliksiz-9-1.png?p=event-300",
-      "parsed_date": "2025-11-01T05:30:00.000Z"
+      "parsed_date": "2026-11-01T05:30:00.000Z"
     },
     {
       "title": "DevOps Konuşmaları Harbor ile AI Modellerin Dağıtılması ve CEL ile Kyverno",
@@ -120,7 +201,7 @@
       "date": "Thu, Oct 26, 2023 at 4:00 PM",
       "location": "",
       "image": "https://media.kommunity.com/communities/devops-turkiye/events/generating-slsa-provenance-for-your-artifacts-with-goreleaser-ff3f774a/56690/600-516789436.png?p=event-300",
-      "parsed_date": "2025-10-26T16:00:00.000Z"
+      "parsed_date": "2026-10-26T16:00:00.000Z"
     },
     {
       "title": "Serverless Evolution",
